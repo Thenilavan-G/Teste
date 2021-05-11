@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AppTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="LifeHopeAndroid(failed)" verbose="0">
+    <classes>
+      <class name="IntegrationTest.BookATest">
+        <methods>
+          <include name="sheetData"/>
+          <include name="setApp"/>
+          <include name="testReport"/>
+          <include name="bookTest"/>
+        </methods>
+      </class> <!-- IntegrationTest.BookATest -->
+    </classes>
+  </test> <!-- LifeHopeAndroid(failed) -->
+</suite> <!-- Failed suite [AppTest] -->
